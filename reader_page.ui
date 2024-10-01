@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reader_page</class>
+ <widget class="QWidget" name="reader_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>812</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>651</width>
+     <height>571</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="bookinfo">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>90</y>
+     <width>331</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>290</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="accessid">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>430</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="category">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>bookid</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>accessid</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>writer</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>mybook</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>in_book</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>bookname</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>all</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="search">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>90</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>search</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>799</x>
+     <y>0</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>close</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>260</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>id</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>400</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>accessid</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="borrow">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>570</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>borrow</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="return_3">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>690</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>return</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="situation">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>581</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
